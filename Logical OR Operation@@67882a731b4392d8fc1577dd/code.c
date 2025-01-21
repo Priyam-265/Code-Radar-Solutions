@@ -2,7 +2,8 @@
 int main(){
     int a,b;
     scanf("%d %d",&a,&b);
-    (a||b>0)?
+    int c=a||b
+    (c>0)?
     printf("True"):
     printf("False");
     return 0;
