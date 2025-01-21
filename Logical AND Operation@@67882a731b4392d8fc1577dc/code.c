@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int a,b;
+    double a,b;
     scanf("%d %d",&a,&b);
     (a&&b)?
     printf("True"):
