@@ -11,8 +11,5 @@ int main(){
     else if(a==0){
         printf("Zero")
     }
-    else{
-        printf(" ")
-    }
     return 0;
 }
