@@ -18,7 +18,7 @@ int main(){
     // else{
     //     printf("error");
     // }
-    switch(c){
+    switch(choice){
     case '+':
     printf("%d",a+b);
     break;
