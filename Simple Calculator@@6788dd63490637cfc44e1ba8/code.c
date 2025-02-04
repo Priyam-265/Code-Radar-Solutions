@@ -19,7 +19,7 @@ int main(){
     //     printf("error");
     // }
     switch(c):
-    case "+":
+    case ("+"):
     printf("%d",a+b);
     break;
     case ("-"):
