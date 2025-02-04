@@ -9,7 +9,7 @@ int main(){
     else if(choice=='-'){
         printf("%d",a-b);
     }
-    else if(choice=='*){
+    else if(choice=='*'){
         printf("%d",a*b);
     }
     else if(choice=='/'){
