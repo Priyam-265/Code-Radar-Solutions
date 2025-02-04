@@ -1,18 +1,18 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char choice;
-    scanf("%d %d %c",&a,&b,&choice);
-    if(choice=='+'){
+    char[100] choice;
+    scanf("%d %d %s",&a,&b,&choice);
+    if(choice=="+"){
         printf("%d",a+b);
     }
-    else if(choice=='-'){
+    else if(choice=="-"){
         printf("%d",a-b);
     }
-    else if(choice=='*'){
+    else if(choice=="*"){
         printf("%d",a*b);
     }
-    else if(choice=='/'){
+    else if(choice=="/"){
         printf("%d",a/b);
     }
     else{
