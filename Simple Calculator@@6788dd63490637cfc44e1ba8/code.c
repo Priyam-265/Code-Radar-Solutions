@@ -2,11 +2,11 @@
 int main(){
     int a,b;
     char c;
+    scanf("%d %d %c",&a,&b,&c);
     int sum=a+b;
     int diff=a-b;
     int mul=a*b;
     int div=a/b;
-    scanf("%d %d %c",&a,&b,&c);
     if(c=='+'){
         printf("%d",sum);
     }
