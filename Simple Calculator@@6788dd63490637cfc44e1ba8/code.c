@@ -1,38 +1,22 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char[100] choice;
-    scanf("%d %d %s",&a,&b,&choice);
-    if(choice=="+"){
+    char[100] c;
+    scanf("%d %d %s",&a,&b,&c);
+    if(c=="+"){
         printf("%d",a+b);
     }
-    else if(choice=="-"){
+    else if(c=="-"){
         printf("%d",a-b);
     }
-    else if(choice=="*"){
+    else if(c=="*"){
         printf("%d",a*b);
     }
-    else if(choice=="/"){
+    else if(c=="/"){
         printf("%d",a/b);
     }
     else{
         printf("error");
     }
-    // switch(choice){
-    // case '+':
-    // printf("%d",a+b);
-    // break;
-    // case '-':
-    // printf("%d",a-b);
-    // break;
-    // case '*':
-    // printf("%d",a*b);
-    // break;
-    // case '/':
-    // printf("%d",a/b);
-    // break;
-    // default:
-    // printf("error");
-    // }
     return 0;
     }
