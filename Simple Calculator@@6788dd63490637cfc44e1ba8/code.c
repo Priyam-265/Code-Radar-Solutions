@@ -33,5 +33,6 @@ int main(){
     break;
     default:
     printf("error");
-    return 0;}
+    }
+    return 0;
     }
