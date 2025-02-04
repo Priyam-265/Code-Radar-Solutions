@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char c[100];
-    scanf("%d %d %s",&a,&b,&c);
+    char c;
+    scanf("%d %d %c",&a,&b,&c);
     // if(c=="+"){
     //     printf("%d",a+b);
     // }
@@ -18,20 +18,20 @@ int main(){
     // else{
     //     printf("error");
     // }
-    switch(c):
-    case ("+"):
+    switch(c){
+    case '+':
     printf("%d",a+b);
     break;
-    case ("-"):
+    case '-':
     printf("%d",a-b);
     break;
-    case ("*"):
+    case '*':
     printf("%d",a*b);
     break;
-    case ("/"):
+    case '/':
     printf("%d",a/b);
     break;
     default:
     printf("error");
-    return 0;
+    return 0;}
     }
