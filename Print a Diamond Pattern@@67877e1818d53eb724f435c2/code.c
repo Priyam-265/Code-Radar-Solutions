@@ -2,14 +2,20 @@
 int main(){
     int a;
     scanf("%d",&a);
-    for(int i=0;i<2*a-1;i++){
-        int comp;
-        if(i<a)comp=2*(a-i)-1;
-        else comp=2*(i-a+1)+1;
-        for(int j=0;j<comp;j++){
+    for(int i=1;i<a;i++){
+        for(int j=1;j<a-i;j++){
             printf(" ");
         }
-        for(int k=0;k<2*(a-comp);k++){
+        for(int k=0;k<2*a-i;k++){
+            printf("*");
+        }
+        printf("\n");
+    }
+    for(int i=a-i;i>=1;i--){
+        for(int j=1;j<a-i;j++){
+            printf(" ");
+        }
+        for(int k=1;k<2*a-i;k++){
             printf("*");
         }
         printf("\n");
