@@ -6,7 +6,7 @@ int main(){
         int comp;
         if(i<a)comp=2*(a-i)-1;
         else comp=2*(i-a+1)+1;
-        for(int j=0;j<comp;j++){
+        for(int j=0;j<=comp;j++){
             printf(" ");
         }
         for(int k=0;k<2*(a-comp);k++){
