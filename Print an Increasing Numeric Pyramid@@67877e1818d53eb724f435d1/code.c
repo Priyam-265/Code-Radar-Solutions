@@ -1,15 +1,16 @@
 #include <stdio.h>
 int main(){
-    int a,sum=1;
+    int a;
     scanf("%d",&a);
-    for(int i=0;i<a;i++){
-        for(int j=0;j<a-i-1;j++){
+    for(int i=0;i<=a;i++){
+        for(int j=0;j<a-i;j++){
             printf(" ");
         }
-        for(int k=0;k<=i;k++){
-            printf("%d",sum);
-            sum++;
+        for(int k=1;k<=i;k++){
+            printf("%d",k);
+            
         }
+        printf("\n");
     }
     
     return 0;
