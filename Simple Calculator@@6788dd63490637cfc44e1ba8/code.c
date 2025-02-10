@@ -7,6 +7,7 @@ int main(){
     if(c='+'){
         int sum=a+b;
         printf("%d",sum);
+        return 0;
     }
     else if(c='-'){
         int diff=a-b;
