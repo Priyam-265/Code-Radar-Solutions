@@ -23,6 +23,7 @@ int main(){
     else{
         printf("error");
     }
+}
     // switch(c){
     //     case '+':
     //     printf("%.0f",a+b);
