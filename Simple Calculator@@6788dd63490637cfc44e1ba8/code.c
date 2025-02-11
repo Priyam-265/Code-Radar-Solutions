@@ -1,8 +1,8 @@
 #include <stdio.h>
 int main(){
     int a,b;
-    char c;
-    scanf("%d %d%c",&a,&b,&c);
+    char[100] c;
+    scanf("%d %d%s",&a,&b,&c);
     // if(c=='+'){
     //     int sum=a+b;
     //     printf("%d",sum);
@@ -28,16 +28,16 @@ int main(){
     //     printf("error");
     // }
     switch(c){
-        case '+':
+        case "+":
         printf("%d",a+b);
         break;
-        case'-':
+        case "-":
         printf("%d",a-b);
         break;
-        case'*':
+        case "*":
         printf("%d",a*b);
         break;
-        case'/':
+        case "/":
         if(b!=0){
             printf("%d",a/b);
         }
