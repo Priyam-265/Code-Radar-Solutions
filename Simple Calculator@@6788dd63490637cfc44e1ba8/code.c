@@ -46,7 +46,7 @@ int main(){
         }
         break;
         default:
-        printf("error");
+        printf("hello");
     }
     return 0;
     }
