@@ -4,20 +4,20 @@ int main(){
     char c;
     scanf("%f %f %c",&a,&b,&c);
     if(c=='+'){
-        int sum=a+b;
+        float sum=a+b;
         printf("%.0f",sum);
     }
     else if(c=='-'){
-        int diff=a-b;
+        float diff=a-b;
         printf("%.0f",diff);
     }
     else if(c=='*'){
-        int mul=a*b;
+        float mul=a*b;
         printf("%.0f",mul);
     }
     else if(c=='/'){
         if(b!=0){
-        int div=a/b;
+        float div=a/b;
         printf("%.0f",div);
         }
         else{
